@@ -1,0 +1,137 @@
+body {
+    padding-top: 50px;
+    color: #5C0000;
+}
+.section-container {
+    vertical-align: middle;
+}
+.section-title {
+    font-size: 36px;
+}
+.section-sub-title {
+    margin-top: -6px;
+    font-size: 20px;
+}
+.section-body {
+    margin-top: 20px;
+    font-size: 16px;
+}
+.videowrapper {
+    float: none;
+    clear: both;
+    //width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+img.full {
+    width: 100%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    z-index: 1;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.toplogo {
+    background: url(/img/logo_preview.png) no-repeat center center;
+    //background-size: 470px 90px;
+    background-size: 423px 81px;
+}
+.inline {
+    display: inline;
+}
+.social {
+    vertical-align: bottom;
+}
+.social-links {
+    //margin:20px 0px 10px 0px;
+    margin:20px auto 10px auto;
+    height:35px;
+    display: inline-block;
+}
+.social-links div {
+    height: 23px !important;
+    border: 0 !important;
+    padding: 0 !important;
+    text-indent: 0 !important;
+    vertical-align: bottom;
+}
+.fb {
+    float: left;
+    margin-right : 30px !important;
+}
+.googplus {
+    margin-top: 3px;
+    float: left;
+}
+.tweet {
+    margin-top: 3px;
+    float: left;
+}
+.linkedinshare {
+    margin-top: 3px;
+    float: left;
+    margin-right : 20px;
+}
+.center-button {
+    background-color: #FF8963;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    -webkit-appearance: none;
+    color: #ffffff;
+    border: none;
+    padding: 0;
+}
+.login-button {
+    width: 120px;
+    height: 30px;
+}
+.login-button:hover {
+    background-color: #DE6F50;
+}
+.download-button {
+    width: 172px;
+    height: 60px;
+    margin-left: -4px;
+}
+.download-button-ios {
+    width: 180px;
+    height: 68px;
+    margin-top: -4px;
+    margin-left: -8px;
+}
+
+.bottom {
+    text-align: center;
+    padding-top: 30px;
+    background-color: #FF8963;
+    color: #333;
+}
+
+@media(max-width:640px) {
+.toplogo {
+    background: url(img/top_logo_big.png) no-repeat center center;
+    background-size: 180px 63px;
+}
+}
